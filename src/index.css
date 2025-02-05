@@ -1,0 +1,45 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+@layer theme {
+  :root{
+    --breakpoint-xs: 15rem;
+  }
+}
+
+
+@font-face {
+  font-family: "Kumbh";
+  src: url(/src/assets/media/Fonts/KumbhSans-Light.ttf);
+}
+@font-face {
+  font-family: "Kumbh-Bold";
+  src: url(/src/assets/media/Fonts/KumbhSans-Regular.ttf);
+}
+
+
+body{
+  font-family: "Kumbh", Arial, Helvetica, sans-serif;
+  color: white;
+}
+
+
+nav{
+  background-color: rgba(0, 0, 0, 0.425) !important;
+}
+
+
+h1{
+  font-size: 48px;
+}
+
+
+h2{
+  font-size: 28px;
+}
+
+input{
+  color: black;
+}
