@@ -27,7 +27,7 @@ function App() {
 
 
   return (
-    <div className="bg-[url(/src/assets/media/AllForOneWP.jpg)] min-h-screen bg-no-repeat bg-cover pt-20">
+    <div className="bg-[url(/src/assets/media/AllForOneWP.jpg)] min-h-screen bg-no-repeat bg-cover md:pt-20 py-32">
       <div className="container mx-auto">
         <div className="flex justify-center sm:justify-end">
           <h1 className="w-fit">All For One</h1>

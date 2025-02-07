@@ -13,7 +13,7 @@ const Game3 = () => {
     setDisplay(result == null ? "Please enter valid numbers." : result);
   };
   return (
-    <div className="bg-[url(/src/assets/media/comdes01.jpg)] min-h-screen bg-no-repeat bg-fixed bg-cover md:pt-20 flex md:block place-items-start">
+    <div className="bg-[url(/src/assets/media/comdes01.jpg)] min-h-screen bg-no-repeat bg-fixed bg-cover md:pt-20 py-32 flex md:block place-items-center">
       <div className="container mx-auto">
         <div className="flex xs:justify-center md:justify-end">
           <h1 className="w-fit">Add 2 Numbers</h1>
