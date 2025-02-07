@@ -43,3 +43,7 @@ h2{
 input{
   color: black;
 }
+
+.numInput{
+  width: 7rem;
+}
