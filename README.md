@@ -28,5 +28,5 @@ github [here](https://github.com/wraithio/all-for-one-reactaar)
 
 vercel [here](https://a-robinson-p5-poke-api.vercel.app/)
 
-### Peer Review by:
-**Comments:**:  
+### Peer Review by: Brock Spacek
+**Comments:**:  The site has a very slick design and is nice and easy to navigate. I love the nav bar with the rules and home button. Every game is functional but I did find a couple things to clean up on. When you make the screen size smaller on your games, the title of the game goes into the Nav Bar and is covered by it in pretty much every single one. The other main thing was in MadLibs, when I generated the story, I was not able to scroll and see most of the story as it was covered by what I think is a sticky footer. Other than that everything else looks good and is functioning properly.
