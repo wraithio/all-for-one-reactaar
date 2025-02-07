@@ -13,7 +13,7 @@ const Game0 = () => {
   };
 
   return (
-    <div className="bg-[url(/src/assets/media/backiee-172695.jpg)] min-h-screen bg-no-repeat bg-fixed bg-cover md:pt-20 flex md:block place-items-center">
+    <div className="bg-[url(/src/assets/media/backiee-172695.jpg)] min-h-screen bg-no-repeat bg-fixed bg-cover md:pt-20 flex md:block place-items-start">
       <div className="container mx-auto">
         <div className="flex xs:justify-center md:justify-end">
           <h1 className="w-fit">Restaurant Picker</h1>

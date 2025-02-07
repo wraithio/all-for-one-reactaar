@@ -32,7 +32,7 @@ const Game5 = () => {
   };
 
   return (
-    <div className="bg-[url(/src/assets/media/winter.jpg)] min-h-screen bg-no-repeat bg-fixed bg-cover md:pt-20 flex md:block place-items-center">
+    <div className="bg-[url(/src/assets/media/winter.jpg)] min-h-screen bg-no-repeat bg-fixed bg-cover md:pt-20 flex md:block place-items-start">
       <div className="container mx-auto">
         <div className="flex xs:justify-center md:justify-end">
           <h1 className="w-fit">Mad Lib</h1>
