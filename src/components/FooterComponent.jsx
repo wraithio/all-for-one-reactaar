@@ -5,12 +5,12 @@ import { Footer } from "flowbite-react";
 
 const FooterComponent = () => {
   return (
-    <Footer className="bg-black rounded-none" container>
+    <Footer className="bg-black rounded-none absolute bottom-0 min-w-full" container>
       <div className="w-full text-center text-white">
         <div className="w-full justify-between sm:flex sm:items-center sm:justify-between">
           <Footer.Brand
           target="_blank"
-            href="https://flowbite.com"
+            href="https://github.com/wraithio/all-for-one-reactaar"
             src="./public/gihublogoWHITE.png"
             alt="Github Logo"
             name="Repository"

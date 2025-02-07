@@ -13,7 +13,7 @@ const Game0 = () => {
   };
 
   return (
-    <div className="bg-[url(/src/assets/media/backiee-172695.jpg)] min-h-screen bg-no-repeat bg-fixed bg-cover pt-20">
+    <div className="bg-[url(/src/assets/media/backiee-172695.jpg)] min-h-screen bg-no-repeat bg-fixed bg-cover md:pt-20 flex md:block place-items-center">
       <div className="container mx-auto">
         <div className="flex xs:justify-center md:justify-end">
           <h1 className="w-fit">Restaurant Picker</h1>
@@ -25,7 +25,7 @@ const Game0 = () => {
               onClick={() => setGenre("mexican")}
               className="border-2 border-solid rounded-xl hover:bg-white"
             >
-              <h2 id="mexicanBtn" className="p-3 hover:text-blue-600">
+              <h2 id="mexicanBtn" className="p-2 hover:text-blue-600">
                 Mexican
               </h2>
             </button>
@@ -34,13 +34,13 @@ const Game0 = () => {
               id="chineseBtn"
               className="border-2 border-solid rounded-xl hover:bg-white"
             >
-              <h2 className="p-3 hover:text-blue-600">Chinese</h2>
+              <h2 className="p-2 hover:text-blue-600">Chinese</h2>
             </button>
             <button
               onClick={() => setGenre("italian")}
               className="border-2 border-solid rounded-xl hover:bg-white"
             >
-              <h2 id="italianBtn" className="p-3 hover:text-blue-600">
+              <h2 id="italianBtn" className="p-2 hover:text-blue-600">
                 Italian
               </h2>
             </button>
@@ -51,7 +51,7 @@ const Game0 = () => {
             onClick={displayTxt}
             className="border-2 border-solid rounded-xl hover:bg-white"
           >
-            <h2 className="p-3 hover:text-blue-600">Generate</h2>
+            <h2 className="p-2 hover:text-blue-600">Generate</h2>
           </button>
         </div>
         <h2>{display}</h2>

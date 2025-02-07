@@ -20,13 +20,13 @@ const Game2 = () => {
     );
   };
   return (
-    <div className="bg-[url(/src/assets/media/cacti.jpg)] min-h-screen bg-no-repeat bg-fixed bg-cover pt-20">
+    <div className="bg-[url(/src/assets/media/cacti.jpg)] min-h-screen bg-no-repeat bg-fixed bg-cover md:pt-32 flex md:block place-items-center">
       <div className="container mx-auto">
         <div className="flex xs:justify-center md:justify-end">
           <h1 className="w-fit">Asking Questions</h1>
         </div>
         <div className="flex flex-col gap-3">
-          <div className="flex flex-row gap-8">
+          <div className="flex flex-col md:flex-row gap-8">
             <div>
               <h2>Enter your name:</h2>
               <input
@@ -62,7 +62,7 @@ const Game2 = () => {
               onClick={displayTxt}
               className="border-2 border-solid rounded-xl hover:bg-white"
             >
-              <h2 className="p-3 hover:text-orange-300">
+              <h2 className="p-2 hover:text-orange-300">
                 <b>Submit</b>
               </h2>
             </button>

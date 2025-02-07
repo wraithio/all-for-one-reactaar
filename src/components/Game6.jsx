@@ -13,7 +13,7 @@ const Game6 = () => {
   };
 
   return (
-    <div className="bg-[url(/src/assets/media/arctic.jpg)] min-h-screen bg-no-repeat bg-fixed bg-cover pt-20">
+    <div className="bg-[url(/src/assets/media/arctic.jpg)] min-h-screen bg-no-repeat bg-fixed bg-cover md:pt-20 flex md:block place-items-center">
       <div className="container mx-auto">
         <div className="flex xs:justify-center md:justify-end">
           <h1 className="w-fit">Odd or Even</h1>
@@ -34,7 +34,7 @@ const Game6 = () => {
               onClick={displayTxt}
               className="border-2 border-solid rounded-xl hover:bg-white"
             >
-              <h2 className="p-3 hover:text-purple-300">
+              <h2 className="p-2 hover:text-purple-300">
                 <b>Submit</b>
               </h2>
             </button>

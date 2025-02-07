@@ -22,6 +22,7 @@ createRoot(document.getElementById("root")).render(
   <StrictMode>
     <BrowserRouter>
       <NavbarComponent />
+      <FooterComponent />
       <Routes>
         <Route path="/" element={<App />} />
         <Route path="/game1" element={<Game1 />} />
@@ -35,7 +36,6 @@ createRoot(document.getElementById("root")).render(
         <Route path="/game9" element={<Game9 />} />
         <Route path="/game0" element={<Game0 />} /> 
       </Routes>
-      <FooterComponent />
     </BrowserRouter>
   </StrictMode>
 );

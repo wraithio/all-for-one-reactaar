@@ -152,7 +152,6 @@ let Magic8 = async (string) => {
     return null;
   }
 };
-
 let Restaurant = async (genre) => {
   try {
     const promise = await fetch(

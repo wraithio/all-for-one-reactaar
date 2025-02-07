@@ -15,7 +15,7 @@ const Game4 = () => {
   };
 
   return (
-    <div className="bg-[url(/src/assets/media/forest.jpg)] min-h-screen bg-no-repeat bg-fixed bg-cover pt-20">
+    <div className="bg-[url(/src/assets/media/forest.jpg)] min-h-screen bg-no-repeat bg-fixed bg-cover md:pt-20 flex md:block place-items-center">
       <div className="container mx-auto">
         <div className="flex xs:justify-center md:justify-end">
           <h1 className="w-fit">Greater Than/Less Than</h1>
@@ -48,7 +48,7 @@ const Game4 = () => {
               onClick={displayTxt}
               className="border-2 border-solid rounded-xl hover:bg-white"
             >
-              <h2 className="p-3 hover:text-green-300">
+              <h2 className="p-2 hover:text-green-300">
                 <b>Submit</b>
               </h2>
             </button>

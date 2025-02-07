@@ -3,12 +3,6 @@
 @tailwind utilities;
 
 
-@layer theme {
-  :root{
-    --breakpoint-xs: 15rem;
-  }
-}
-
 
 @font-face {
   font-family: "Kumbh";
