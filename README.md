@@ -1,8 +1,32 @@
-# React + Vite
+Name : Aaron Robinson
+Assignment : All For One React Rebuild
+Date : 2/7/2025
+Objective :
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Description:
 
-Currently, two official plugins are available:
+Rebuild your All For One Project in React
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+
+Requirements:
+
+    Each Mini Challenge should be its own component
+    All your fetches should be done in a DataService.js file
+    Must look like original figma
+    Hosted on Vercel or Azure
+    Peer Review
+    Responsiveness (mobile, tablet, desktop)
+    YOU MUST HAVE DATA VALIDATION COMPLETED
+
+
+
+---
+
+figma [here](https://www.figma.com/design/829OC6BQoJfNy4f3pcx2Hv/AllForOne?node-id=0-1&t=4ZO2cFmUsXQHwJqf-1)
+
+github [here](https://github.com/wraithio/all-for-one-reactaar)
+
+vercel [here](https://a-robinson-p5-poke-api.vercel.app/)
+
+### Peer Review by:
+**Comments:**:  

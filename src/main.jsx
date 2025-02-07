@@ -22,7 +22,6 @@ createRoot(document.getElementById("root")).render(
   <StrictMode>
     <BrowserRouter>
       <NavbarComponent />
-      {/* <OffcanvasComponent /> */}
       <Routes>
         <Route path="/" element={<App />} />
         <Route path="/game1" element={<Game1 />} />

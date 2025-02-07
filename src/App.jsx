@@ -3,7 +3,7 @@ import "./App.css";
 
 function App() {
   return (
-    <div className="bg-[url(/src/assets/media/AllForOneWP.jpg)] min-h-screen bg-no-repeat bg-fixed bg-cover pt-20">
+    <div className="bg-[url(/src/assets/media/AllForOneWP.jpg)] min-h-screen bg-no-repeat bg-fixed bg-cover py-20">
       <div className="container mx-auto">
       <div className="flex xs:justify-center md:justify-end">
         <h1 className="w-fit">All For One</h1>

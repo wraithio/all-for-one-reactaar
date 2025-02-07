@@ -110,7 +110,7 @@ let ReverseWord = async (word) => {
     const promise = await fetch(
       `https://all4oneapirobinson-ape7ecguhqdqc9cm.westus-01.azurewebsites.net/ReverseIt/GoReverseChar/${word}`
     );
-    if (!promise.ok) {
+    if (!promise.ok || isNaN(word) == false) {
       let errorData = await response.json();
       throw new Error(errorData.message);
     }
@@ -126,7 +126,7 @@ let ReverseNum = async (num) => {
     const promise = await fetch(
       `https://all4oneapirobinson-ape7ecguhqdqc9cm.westus-01.azurewebsites.net/ReverseIt/GoReverseNum/${num}`
     );
-    if (!promise.ok) {
+    if (!promise.ok || isNaN(num) == true) {
       let errorData = await response.json();
       throw new Error(errorData.message);
     }
@@ -137,12 +137,12 @@ let ReverseNum = async (num) => {
   }
 };
 
-let Magic8 = async () => {
+let Magic8 = async (string) => {
   try {
     const promise = await fetch(
       `https://all4oneapirobinson-ape7ecguhqdqc9cm.westus-01.azurewebsites.net/Magic8/goMagic8`
     );
-    if (!promise.ok) {
+    if (!promise.ok || !string.includes("?")) {
       let errorData = await response.json();
       throw new Error(errorData.message);
     }

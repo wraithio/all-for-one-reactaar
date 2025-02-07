@@ -13,24 +13,31 @@ const Game1 = () => {
     <>
       <div className="bg-[url(/src/assets/media/Milky1.jpg)] min-h-screen bg-no-repeat bg-fixed bg-cover pt-20">
         <div className="container mx-auto">
-        <div className="flex xs:justify-center md:justify-end">
-          <h1 className="w-fit">Say Hello</h1>
-        </div>
+          <div className="flex xs:justify-center md:justify-end">
+            <h1 className="w-fit">Say Hello</h1>
+          </div>
+          <div className="flex flex-col gap-3">
           <h2>Enter your name:</h2>
-          <input
-            type="text"
-            onChange={(event) => {
-              setUserInput(event.target.value);
-            }}
-          />
-          <button
-            onClick={displayTxt}
-            className="border-2 border-solid rounded-xl hover:bg-white"
-          >
-            <h2 className="p-3 hover:text-pink-500">
-              <b>Submit</b>
-            </h2>
-          </button>
+            <div>
+            <input
+              type="text"
+              onChange={(event) => {
+                setUserInput(event.target.value);
+              }}
+              />
+              </div>
+              <div>
+
+            <button
+              onClick={displayTxt}
+              className="border-2 border-solid rounded-xl hover:bg-white"
+              >
+              <h2 className="p-3 hover:text-pink-500">
+                <b>Submit</b>
+              </h2>
+            </button>
+              </div>
+          </div>
           <h2>{display}</h2>
         </div>
       </div>
